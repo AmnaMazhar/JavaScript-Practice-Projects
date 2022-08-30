@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    background: #1B244A
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+h3{
+    /* board-title-home */
+width: 149px;
+height: 36px;
+left: 340px;
+top: 68px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 36px;
+/* identical to box height, or 90% */
+
+text-align: center;
+
+color: #EEEEEE;
+
+}
+
+.home{
+position: absolute;
+width: 155px;
+height: 120px;
+left: 265px;
+top: 110px;
+background: #080001;
+border-radius: 5px;
+
+font-family: 'Cursed Timer ULiL';
+font-style: normal;
+font-weight: 400;
+font-size: 90px;
+line-height: 127px;
+/* or 141% */
+
+text-align: center;
+
+color: #F94F6D;
+
+}
+.guest{
+    position: absolute;
+width: 155px;
+height: 120px;
+right: 265px;
+top: 110px;
+
+background: #080001;
+border-radius: 5px;
+
+font-family: 'Cursed Timer ULiL';
+font-style: normal;
+font-weight: 400;
+font-size: 90px;
+line-height: 127px;
+/* or 141% */
+
+text-align: center;
+
+color: #F94F6D;
+}
+
+button{
+    box-sizing: border-box;
+
+/* position: absolute; */
+width: 45px;
+height: 45px;
+left: 82px;
+top: 271px;
+margin-top: 150px;
+border: 2px solid #9AABD8;
+border-radius: 5px;
+
+font-family: 'Cursed Timer ULiL';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 155% */
+text-align: center;
+
+color: #9AABD8;
+background: #1B244A
+
+}
+
+.new-game{
+    width: 150px;
+    height: 45px;
+    left: 82px;
+    top: 271px;
+    margin-top: 100px;
+    margin-left: 600px;
+}
+
+/* .lead{
+width: 155px;
+height: 120px;
+left: 265px;
+top: 110px;
+margin-top: 40px;
+margin-left: 600px;
+font-family: 'Cursed Timer ULiL';
+font-style: normal;
+font-weight: 50;
+font-size: 30px;
+line-height: 127px;
+text-align: center;
+color: #F94F6D;
+} */
